@@ -8,27 +8,76 @@
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/brands.css" integrity="sha384-i2PyM6FMpVnxjRPi0KW/xIS7hkeSznkllv+Hx/MtYDaHA5VcF0yL3KVlvzp8bWjQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="index.css" />
+
 </head>
 <body>
+  <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+    <header class="container mb-auto mt-3">
+      <div class="row">
+        <div class="col-12 text-center py-5 mt-3">
+          <a href="#">
+            <img src="images/logo.svg" class="brand-logo"/>
+          </a>
+        </div>
+      </div>
+    </header>
 
-  We are launching soon!
+    <div class="container">
+      <div class="row my-3">
+        <div class="col text-center">
+          <h2 class="py-2">We are launching <b>soon!</b></h2>
+          <p>Subscribe and get notified</p>
+        </div>
+      </div>
 
-  Subscribe and get notified
+      <div class="row my-2">
+        <div class="col-12 col-lg-9 my-lg-0 my-2 px-2 d-flex">
+          <input type="text" class="circular entry-primary flex-fill mx-lg-0" placeholder="Your email address..."/>
+        </div>
+        <div class="col-12 col-lg-3 my-lg-0 my-2 px-2 d-flex text-center">
+          <a href="#" class="circular button-primary flex-fill mx-lg-0">Notify Me</a>
+        </div>
+      </div>
 
-  Notify Me
+      <div class="row my-5 py-5 px-3">
+        <div class="col-12">
+          <img src="images/illustration-dashboard.png" class="img-illustration"/>
+        </div>
+      </div>
+    </div>
 
-  &copy; Copyright Ping. All rights reserved.
+    <footer class="container my-4">
+      <div class="row py-0">
+        <div class="col-12 d-flex justify-content-center">
+          <a href="#" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="footer-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="row py-4">
+        <div class="col-12 text-center">
+          <small>
+            &copy; Copyright Ping. All rights reserved.
+          </small>
+        </div>
+      </div>
+    </footer>
+  </div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
